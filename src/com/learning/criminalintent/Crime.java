@@ -16,12 +16,7 @@ public class Crime {
 		// Generate unique id
 		mId = UUID.randomUUID();
 		mDate = new Date();
-		/*********
-		 * Change to  “Tuesday, Oct 12, 2012.”
-		 */
-//		DateFormat df = DateFormat.getDateFormat(null);
-//		System.out.println(df.format(new Date(0)));
-//		mDate = DateFormat.getDateInstance().format(new Date(0));
+
 	}
 
 	public Date getDate() {
