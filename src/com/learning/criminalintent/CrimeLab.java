@@ -7,7 +7,6 @@ import android.content.Context;
 
 public class CrimeLab {
 	private ArrayList<Crime> mCrimes;
-	
 	private static CrimeLab sCrimeLab;
 	private Context mAppContext;
 	

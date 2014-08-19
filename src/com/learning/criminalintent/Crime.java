@@ -19,6 +19,11 @@ public class Crime {
 
 	}
 
+	@Override
+	public String toString() {
+		return mTitle;
+	}
+	
 	public Date getDate() {
 		return mDate;
 	}
@@ -47,5 +52,6 @@ public class Crime {
 		return mId;
 	}
 
+	
 }
 
